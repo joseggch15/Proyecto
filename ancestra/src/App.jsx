@@ -1,20 +1,16 @@
+import React from 'react';
+import 'bulma/css/bulma.css';  
 import './App.css';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
 
 function App() {
   return (
-  <div className="App">
-    </Router>
-      
-     <Switch>
-          <Header/>
-        </Switch>
-    <Footer/>
-  </div>
-  );
+    <div>
+      <Header/>
+    </div>
+  )
 }
 
 export default App;
